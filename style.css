@@ -46,7 +46,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-padding: 140px 250px 0px 200px ;
+padding: 140px 250px 0px 350px ;
 
 }
 
@@ -103,10 +103,11 @@ font-weight: 700;
     background-repeat: no-repeat;
     background-size: 1000px; */
     padding-bottom: 200px;
-    filter: brightness(60%);
+    filter: brightness(70%);
  }
  .banner-text-two {
     margin: 50px;
+    
  }
 
 .banner-flex .banner-text-two *{margin-right:100px;
