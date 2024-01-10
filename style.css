@@ -1,0 +1,293 @@
+/* common style */
+
+p {
+    color: rgba(7, 2, 17, 0.60);
+
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    color: #FFF;
+
+    /* text-align: center; */
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* header start */
+.container {
+    max-width: 1320px;
+    width: 80%; 
+    margin: 0px auto;  
+}
+.banner {
+    background-image: url(resources/Banner\ Image.png);
+    padding-bottom: 150px;
+
+}
+
+.banner-text {
+    text-align: center;
+    
+}
+.banner-text h5 {
+    color: #FFF;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 140px 250px 0px 200px ;
+}
+
+.banner-text h1 {
+    padding-right: 100px;
+    padding-left: 150px;
+}
+
+/* header finished */
+
+/* section one start */
+
+.section-one {
+    text-align: center;
+}
+.section-one h1 {
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+}
+.section-one h4 {
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+margin: 0;
+}
+.section-one h2 {
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+}
+
+/* section two start */
+
+
+.banner-two {
+    background-image:url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 1000px; */
+    padding-bottom: 200px;
+    
+ }
+ .banner-text-two {
+    margin: 50px;
+ }
+
+.banner-flex .banner-text-two *{margin-right:100px;
+    max-width: 480px;
+
+}
+.banner-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-flex .banner-text-two h1 {
+    color: #FFF;
+
+font-family: Merriweather;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 5px;
+}
+
+.banner-flex .banner-text-two p {
+    color: rgba(255, 255, 255, 0.80);;
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+} 
+.banner-flex .banner-text-two button {
+    color: #FFF;
+background: none;
+border: none;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+cursor: pointer;
+transition: all 1s;
+}
+.banner-flex .banner-text-two button:hover {
+    background: greenyellow;
+}
+
+.banner-flex .banner-two-img img {
+    width: 80%;
+     vertical-align: middle;
+     
+}
+
+/* section three */ 
+.container-color {
+   background-color: rgb(245, 215, 220);
+   text-align: center;
+   padding-top:70px ;
+   padding-bottom: 100px;
+}
+.container-color h4 {
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+.container-color button {
+    color: #FFF;
+background: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+padding: 16px 32px;
+cursor: pointer;
+transition: all 1s;
+}
+.container-color button:hover {
+background: greenyellow;
+}
+#feature {
+    margin-top: 50px;
+}
+
+/* section four */
+
+.three-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.item-one {
+    text-align: left;
+}
+.item-one h4 {
+    color: #F00;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+t
+}
+.item-one h1 {
+    color: #070211;
+font-family: Merriweather;
+font-size: 40px;
+font-weight: 900;
+}
+.item-one p {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+padding-right: 30px;
+}
+.item-two img {
+padding-right: 100px;
+}
+.item-three p {
+    font-size: 16px;
+}
+.item-three h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.item-three img {
+    padding-top: 20px;
+}
+
+/* section five */
+
+.images-heading {
+    margin-top: 100px;
+    text-align: center;
+}
+.images-heading h6 {
+    color: #070211;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.images-heading h1 {
+    color: #F00;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.images-heading p {
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+padding: 0 100px;
+}
+.discount-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: auto;
+    padding-top: 50px;
+}
+.images-one {
+    width: 400px;
+    height: auto;
+}
+.images-two {
+    width: 300px;
+    height: auto;
+}
+.images-three {
+    width: 300px;
+    height: auto;
+}
+
+/* section six */
