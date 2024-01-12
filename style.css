@@ -30,9 +30,9 @@ h1 {
     margin: 0px auto;  
 }
 .banner {
-    background-image: url(resources/Banner\ Image.png);
+    background: linear-gradient(80deg, #070211 0%, rgba(7,2,17,0)100%),url('resources/Banner\ Image.png');
     padding-bottom: 150px;
-filter: brightness(80%);
+
 }
 
 .banner-text {
@@ -99,11 +99,10 @@ font-weight: 700;
 
 
 .banner-two {
-    background-image:url('resources/Vectorrr.png');
+    background: linear-gradient(80deg, #070211 0%, rgba(7,2,17,0)100%), url('resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: 1000px; */
     padding-bottom: 200px;
-    filter: brightness(70%);
  }
  .banner-text-two {
     margin: 50px;
